@@ -5,8 +5,8 @@
 }
 
 body {
-  background-image: white;
-  font-family: "Montserrat";
+  background-color: #f5f5f5;
+  font-family: "Montserrat", Arial, sans-serif;
   min-height: 100vh;
 }
 
@@ -23,23 +23,22 @@ body {
 }
 
 a {
-  color: rgb(155, 155, 255);
+  color: rgb(68, 68, 189);
+  text-decoration: none;
 }
 
-/*imp! LEFT CONTAINER */
+a:hover {
+  text-decoration: underline;
+}
 
-.left-container .new-user {
+.new-user {
   font-weight: 600;
+  color: #333;
 }
 
 .left-container,
 .right-img-container {
   width: 50%;
-}
-
-.left-container h2 {
-  margin: 20px 0;
-  font-size: 30px;
 }
 
 .left-container {
@@ -49,18 +48,24 @@ a {
   left: 40px;
 }
 
-.left-container .welcome-text {
+.left-container h2 {
+  margin: 20px 0;
+  font-size: 30px;
+  color: #333;
+}
+
+.welcome-text {
   font-size: 16px;
   color: #666;
   margin: 10px 0 30px 0;
   line-height: 1.6;
 }
 
-.left-container .features {
+.features {
   margin: 30px 0;
 }
 
-.left-container .feature-item {
+.feature-item {
   margin-bottom: 15px;
   padding: 10px;
   border-left: 3px solid rgb(68, 68, 189);
@@ -68,18 +73,18 @@ a {
   border-radius: 0 4px 4px 0;
 }
 
-.left-container .feature-item h3 {
+.feature-item h3 {
   font-size: 16px;
   color: rgb(68, 68, 189);
   margin-bottom: 5px;
 }
 
-.left-container .feature-item p {
+.feature-item p {
   font-size: 14px;
   color: #666;
 }
 
-.left-container .login-btn {
+.login-btn {
   display: inline-block;
   padding: 12px 40px;
   width: 75%;
@@ -92,15 +97,13 @@ a {
   font-size: 20px;
   cursor: pointer;
   font-weight: 600;
-  text-decoration: none;
   text-align: center;
+  text-decoration: none;
 }
 
-.left-container .login-btn:hover {
+.login-btn:hover {
   background-color: rgb(58, 58, 169);
 }
-
-/*imp! RIGHT CONTAINER */
 
 .right-img-container {
   float: right;
